@@ -23,7 +23,7 @@ public class RKManager : ObservableObject {
     
     var colors = RKColorSettings()
   
-    init(calendar: Calendar, minimumDate: Date, maximumDate: Date, selectedDates: [Date] = [Date](), mode: Int) {
+    public init(calendar: Calendar, minimumDate: Date, maximumDate: Date, selectedDates: [Date] = [Date](), mode: Int) {
         self.calendar = calendar
         self.minimumDate = minimumDate
         self.maximumDate = maximumDate
