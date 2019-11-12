@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "RKCalendar",
             dependencies: [],
-            path: "./RKCalendar"),
+            path: "./RKCalendar/Manager"),
         /*.testTarget(
             name: "RKCalendarTests",
             dependencies: ["RKCalendar"]),*/
