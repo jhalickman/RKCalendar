@@ -14,7 +14,7 @@ public struct RKCell: View {
     
     var cellWidth: CGFloat
     
-    var body: some View {
+    public var body: some View {
         Text(rkDate.getText())
             .fontWeight(rkDate.getFontWeight())
             .foregroundColor(rkDate.getTextColor())

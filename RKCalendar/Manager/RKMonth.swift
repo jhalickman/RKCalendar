@@ -26,7 +26,7 @@ public struct RKMonth: View {
     @State var showTime = false
     
     
-    var body: some View {
+    public var body: some View {
         VStack(alignment: HorizontalAlignment.center, spacing: 10){
             Text(getMonthHeader()).foregroundColor(self.rkManager.colors.monthHeaderColor)
             VStack(alignment: .leading, spacing: 5) {
