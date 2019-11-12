@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct RKWeekdayHeader : View {
+public struct RKWeekdayHeader : View {
     
     var rkManager: RKManager
      

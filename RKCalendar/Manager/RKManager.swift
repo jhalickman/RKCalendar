@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-class RKManager : ObservableObject {
+public class RKManager : ObservableObject {
 
     @Published var calendar = Calendar.current
     @Published var minimumDate: Date = Date()

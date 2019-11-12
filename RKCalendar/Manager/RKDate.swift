@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct RKDate {
+public struct RKDate {
     
     var date: Date
     let rkManager: RKManager

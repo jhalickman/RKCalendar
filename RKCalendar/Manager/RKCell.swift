@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct RKCell: View {
+public struct RKCell: View {
     
     var rkDate: RKDate
     

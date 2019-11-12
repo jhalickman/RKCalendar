@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct RKMonth: View {
+public struct RKMonth: View {
 
     @Binding var isPresented: Bool
     
