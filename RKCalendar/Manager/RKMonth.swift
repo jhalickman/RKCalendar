@@ -24,12 +24,6 @@ public struct RKMonth: View {
     let cellWidth = CGFloat(32)
     
     @State var showTime = false
-    
-    public init(isPresented: (Binding<Bool>), rkManager: RKManager, monthOffset: Int) {
-        self.isPresented = $isPresented;
-        self.rkManager = rkManager
-        self.monthOffset = monthOffset;
-    }
 
     public var body: some View {
         VStack(alignment: HorizontalAlignment.center, spacing: 10){
