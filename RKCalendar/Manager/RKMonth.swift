@@ -25,8 +25,8 @@ public struct RKMonth: View {
     
     @State var showTime = false
     
-    public init(isPresented: Binding<Bool>, rkManager: RKManager, monthOffset: Int) {
-        self.isPresented = isPresented.binding;
+    public init(isPresented: (Binding<Bool>), rkManager: RKManager, monthOffset: Int) {
+        self.isPresented = $isPresented;
         self.rkManager = rkManager
         self.monthOffset = monthOffset;
     }
